@@ -11,6 +11,8 @@ import android.os.Process;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
+
 import com.example.m_chick.R;
 public class InitialCheck extends AppCompatActivity {
 
@@ -23,6 +25,14 @@ public class InitialCheck extends AppCompatActivity {
 
         Button know = (Button) findViewById(R.id.know);
         Button dontknow = (Button) findViewById(R.id.dontknow);
+        TextView home=(TextView)findViewById(R.id.txthome);
+        home.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent=new Intent(InitialCheck.this,Homepage.class);
+                startActivity(intent);
+            }
+        });
         if (getSupportActionBar()!=null) {
             getSupportActionBar().setDisplayHomeAsUpEnabled(true);
             getSupportActionBar().setDisplayShowHomeEnabled(true);

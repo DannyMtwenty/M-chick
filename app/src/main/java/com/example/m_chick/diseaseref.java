@@ -14,7 +14,7 @@ public class diseaseref extends AppCompatActivity {
         setContentView(R.layout.activity_diseaseref);
         WebView webView = new WebView(this);
         setContentView(webView);
-        webView.loadUrl("http://www.nafis.go.ke/livestock/poultry-chicken/general-information/poultry-diseases/");
+        webView.loadUrl("https://www.cdc.gov/diseasesconditions/index.html");
 
         if (getSupportActionBar()!=null) {
             getSupportActionBar().setDisplayHomeAsUpEnabled(true);
