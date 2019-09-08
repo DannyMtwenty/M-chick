@@ -21,7 +21,7 @@ public class symptoms extends AppCompatActivity {
     Button diagonize;
     ArrayList<String> selection = new ArrayList<String>();
     WebView webView;
-    private String GoogleAPI = "AIzaSyDn9sTIpoBxPx5cGhp0X7Tyk0kPBz8Fvys";
+    private String GoogleAPI = "AIzaSyDr5Hooz0gQ2w11777UwKHLyJksYK9UKY0";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

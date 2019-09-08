@@ -20,7 +20,7 @@ public class welcome extends AppCompatActivity {
         EasySplashScreen welcome = new EasySplashScreen(welcome.this)
                 .withFullScreen()
                 .withTargetActivity(MainActivity.class)
-                .withSplashTimeOut(3000)
+                .withSplashTimeOut(5000)
                 .withLogo(R.drawable.chick1)
                 .withBackgroundColor(Color.parseColor("#FFFFFF"))
                 .withHeaderText("Welcome to ChickMonitor!")

@@ -20,6 +20,14 @@ private CardView diseaseCard,vaccinationCard,brooderCard,reminderCard,mapCard;
         reminderCard=(CardView)findViewById(R.id.remindercard);
         mapCard=(CardView)findViewById(R.id.mapcard);
 
+        mapCard.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent=new Intent(Homepage.this,Search.class);
+                startActivity(intent);
+            }
+        });
+
         diseaseCard.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -28,4 +36,5 @@ private CardView diseaseCard,vaccinationCard,brooderCard,reminderCard,mapCard;
             }
         });
     }
+
 }
