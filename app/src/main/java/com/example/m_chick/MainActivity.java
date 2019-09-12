@@ -17,7 +17,6 @@ public class MainActivity extends AppCompatActivity {
         ActionBar actionBar=getSupportActionBar();
         actionBar.hide();
 
-
         SignIn = (Button) findViewById(R.id.signin);
         SignUp = (Button) findViewById(R.id.signup);
 

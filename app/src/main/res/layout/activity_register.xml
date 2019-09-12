@@ -20,7 +20,7 @@
         android:textAlignment="center"
         android:textAllCaps="true"
         android:textSize="35dp"
-        android:textColor="#9F00C9"/>
+        android:textColor="@color/colorAccent"/>
 
     <EditText
         android:id="@+id/fname"

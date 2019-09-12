@@ -13,14 +13,14 @@
         android:textAlignment="center"
         android:textAllCaps="true"
         android:textSize="35dp"
-        android:textColor="#9F00C9"/>
+        android:textColor="@color/colorAccent"/>
 
     <ImageView
-        android:layout_marginLeft="150dp"
+       android:layout_gravity="center"
         android:layout_marginTop="20dp"
         android:layout_width="100dp"
         android:layout_height="100dp"
-        android:src="@drawable/lock"/>
+        android:src="@drawable/lock1"/>
 
     <EditText
         android:id="@+id/username"

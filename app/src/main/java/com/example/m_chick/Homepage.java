@@ -19,7 +19,13 @@ private CardView diseaseCard,vaccinationCard,brooderCard,reminderCard,mapCard;
         brooderCard=(CardView)findViewById(R.id.broodercard);
         reminderCard=(CardView)findViewById(R.id.remindercard);
         mapCard=(CardView)findViewById(R.id.mapcard);
-
+//reminderCard.setOnClickListener(new View.OnClickListener() {
+   // @Override
+   // public void onClick(View view) {
+       // Intent intent=new Intent(Homepage.this,MainActivityReminder.class);
+      //  startActivity(intent);
+   // }
+//});
         mapCard.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -28,10 +34,10 @@ private CardView diseaseCard,vaccinationCard,brooderCard,reminderCard,mapCard;
             }
         });
 
-        diseaseCard.setOnClickListener(new View.OnClickListener() {
-            @Override
+      diseaseCard.setOnClickListener(new View.OnClickListener() {
+        @Override
             public void onClick(View view) {
-                Intent intent=new Intent(Homepage.this,InitialCheck.class);
+                Intent intent=new Intent(Homepage.this,symptoms.class);
                 startActivity(intent);
             }
         });
